@@ -1,15 +1,25 @@
 <html>
 	<head>
 		<script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
+		<link rel="stylesheet" type="text/css" href="StudentInput.css">
 	</head>
+		
+	<body>
+		<div id = "header">
+				<h1>Discere</h1>	
+		</div>
 
-	<form action="javascript:handleClick();">
-		First name:<br>
-		<input id = "nameInput" type="text" name="Name" placeholder="Mickey">
-		<br>
-		<input type="submit" value="Submit">
-	</form>
+		<div class = "screenComponent" id = "inputForm">
+			<form action="javascript:handleClick();">
+				First name:<br>
+				<input id = "nameInput" type="text" name="Name" placeholder="Mickey">
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
 
+		
+	</body>
 
 	<script>
 		var ref = new Firebase("https://discere.firebaseio.com");
@@ -18,11 +28,14 @@
 
 			childRef.set({'name': document.getElementById("nameInput").value })
 
-			alert("succ	essful?");
+			alert("successful?");
 				
 		}
 
 	</script>
 </html>
+
+
+
 
 
