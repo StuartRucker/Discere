@@ -1,0 +1,70 @@
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F89406;
+}
+
+table {
+    width: 100%;
+    position: relative;
+    border-spacing: 10px;
+}
+
+#here_table {
+    overflow-y: scroll;
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    color: #FFF;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #95B8D1;
+}
+
+body {
+    background-color: #809BCE;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+
+#reqTitle {
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top:0px;
+    left: 0px;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+
+.screenComponent {
+
+    position: absolute;
+    margin: 10px;
+    margin-top: 0px;
+    right: 0px;
+    top: 10%;
+    background-color: #95B8D1;
+    border-radius: 10px;
+}
+
+
+#inputForm {
+    width: 47%;
+    height: 40%;
+}

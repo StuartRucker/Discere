@@ -1,0 +1,44 @@
+<html>
+
+<head>
+
+    <script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="script.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div id="reqTitle">
+        <h1 class = "reqTitle"> <span>Requests</span> </h1>
+    </div>
+    
+    <div id="here_table" style="">
+        <table id="mytable"></table>
+    </div>
+
+    <div class="screenComponent" id="inputForm">
+        <form action="javascript:handleClick();">
+            First name:
+            <br>
+            <input id="nameInput" type="text" name="Name" placeholder="Mickey">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+
+<script>
+    //    testing script
+    //    var ref = new Firebase("https://discere.firebaseio.com")
+    //    var nref = ref.push()
+    //    nref.set({
+    //        'name': 'rohan'
+    //    })
+</script>
+
+</html>
