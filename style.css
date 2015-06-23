@@ -3,9 +3,16 @@ td {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Roboto', sans-serif;
-    background-color: #F89406;
+    color: white;
+    background-color: #00ACC1;
+    opacity: 1; 
+}
+
+tr{
+    position: relative;
+    height: 0px;
 }
 
 table {
@@ -16,7 +23,7 @@ table {
 
 #here_table {
     overflow-y: scroll;
-    height: 90%;
+    height: 98.6%;
     width: 50%;
     position: absolute;
     color: #FFF;
@@ -26,11 +33,13 @@ table {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-color: #95B8D1;
+    background-color: #00BCD4;
+    margin-left: 0.7%;
+    margin-top: 0.7%;
 }
 
 body {
-    background-color: #809BCE;
+    background-color: #0097A7;
     font-family: 'Roboto', sans-serif;
     margin: 10px;
 }
@@ -53,13 +62,12 @@ span {
 
 
 .screenComponent {
-
-    position: absolute;
+    
+    float: right;
     margin: 10px;
-    margin-top: 0px;
-    right: 0px;
-    top: 10%;
-    background-color: #95B8D1;
+    margin-top: 0.7%;
+    color: white;
+    background-color: #00BCD4;
     border-radius: 10px;
 }
 
