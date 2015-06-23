@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
+	</head>
+
+	<form action="javascript:handleClick();">
+		First name:<br>
+		<input id = "nameInput" type="text" name="Name" placeholder="Mickey">
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+
+
+	<script>
+		var ref = new Firebase("https://discere.firebaseio.com");
+		function handleClick(){
+			var childRef = ref.push()
+
+			childRef.set({'name': document.getElementById("nameInput").value })
+
+			alert("succ	essful?");
+				
+		}
+
+	</script>
+</html>
+
+
