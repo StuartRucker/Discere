@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC617AE1B3DA64400761994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC617AD1B3DA64400761994 /* AppDelegate.swift */; };
+		1CC617B01B3DA64400761994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC617AF1B3DA64400761994 /* ViewController.swift */; };
+		1CC617B21B3DA64400761994 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC617B11B3DA64400761994 /* Images.xcassets */; };
+		1CC617B51B3DA64400761994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC617B31B3DA64400761994 /* Main.storyboard */; };
+		1CC617C11B3DA64400761994 /* DiscereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC617C01B3DA64400761994 /* DiscereTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC617BB1B3DA64400761994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC617A01B3DA64400761994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC617A71B3DA64400761994;
+			remoteInfo = Discere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CC617A81B3DA64400761994 /* Discere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC617AC1B3DA64400761994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC617AD1B3DA64400761994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CC617AF1B3DA64400761994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CC617B11B3DA64400761994 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CC617B41B3DA64400761994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CC617BA1B3DA64400761994 /* DiscereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC617BF1B3DA64400761994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC617C01B3DA64400761994 /* DiscereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscereTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC617A51B3DA64400761994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC617B71B3DA64400761994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC6179F1B3DA64400761994 = {
+			isa = PBXGroup;
+			children = (
+				1CC617AA1B3DA64400761994 /* Discere */,
+				1CC617BD1B3DA64400761994 /* DiscereTests */,
+				1CC617A91B3DA64400761994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC617A91B3DA64400761994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC617A81B3DA64400761994 /* Discere.app */,
+				1CC617BA1B3DA64400761994 /* DiscereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC617AA1B3DA64400761994 /* Discere */ = {
+			isa = PBXGroup;
+			children = (
+				1CC617AD1B3DA64400761994 /* AppDelegate.swift */,
+				1CC617AF1B3DA64400761994 /* ViewController.swift */,
+				1CC617B11B3DA64400761994 /* Images.xcassets */,
+				1CC617B31B3DA64400761994 /* Main.storyboard */,
+				1CC617AB1B3DA64400761994 /* Supporting Files */,
+			);
+			path = Discere;
+			sourceTree = "<group>";
+		};
+		1CC617AB1B3DA64400761994 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC617AC1B3DA64400761994 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CC617BD1B3DA64400761994 /* DiscereTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CC617C01B3DA64400761994 /* DiscereTests.swift */,
+				1CC617BE1B3DA64400761994 /* Supporting Files */,
+			);
+			path = DiscereTests;
+			sourceTree = "<group>";
+		};
+		1CC617BE1B3DA64400761994 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC617BF1B3DA64400761994 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC617A71B3DA64400761994 /* Discere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC617C41B3DA64400761994 /* Build configuration list for PBXNativeTarget "Discere" */;
+			buildPhases = (
+				1CC617A41B3DA64400761994 /* Sources */,
+				1CC617A51B3DA64400761994 /* Frameworks */,
+				1CC617A61B3DA64400761994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Discere;
+			productName = Discere;
+			productReference = 1CC617A81B3DA64400761994 /* Discere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CC617B91B3DA64400761994 /* DiscereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC617C71B3DA64400761994 /* Build configuration list for PBXNativeTarget "DiscereTests" */;
+			buildPhases = (
+				1CC617B61B3DA64400761994 /* Sources */,
+				1CC617B71B3DA64400761994 /* Frameworks */,
+				1CC617B81B3DA64400761994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC617BC1B3DA64400761994 /* PBXTargetDependency */,
+			);
+			name = DiscereTests;
+			productName = DiscereTests;
+			productReference = 1CC617BA1B3DA64400761994 /* DiscereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC617A01B3DA64400761994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = rohan;
+				TargetAttributes = {
+					1CC617A71B3DA64400761994 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1CC617B91B3DA64400761994 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1CC617A71B3DA64400761994;
+					};
+				};
+			};
+			buildConfigurationList = 1CC617A31B3DA64400761994 /* Build configuration list for PBXProject "Discere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC6179F1B3DA64400761994;
+			productRefGroup = 1CC617A91B3DA64400761994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC617A71B3DA64400761994 /* Discere */,
+				1CC617B91B3DA64400761994 /* DiscereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC617A61B3DA64400761994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC617B21B3DA64400761994 /* Images.xcassets in Resources */,
+				1CC617B51B3DA64400761994 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC617B81B3DA64400761994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC617A41B3DA64400761994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC617B01B3DA64400761994 /* ViewController.swift in Sources */,
+				1CC617AE1B3DA64400761994 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC617B61B3DA64400761994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC617C11B3DA64400761994 /* DiscereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CC617BC1B3DA64400761994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC617A71B3DA64400761994 /* Discere */;
+			targetProxy = 1CC617BB1B3DA64400761994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CC617B31B3DA64400761994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC617B41B3DA64400761994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CC617C21B3DA64400761994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CC617C31B3DA64400761994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1CC617C51B3DA64400761994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Discere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CC617C61B3DA64400761994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Discere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CC617C81B3DA64400761994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiscereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discere.app/Contents/MacOS/Discere";
+			};
+			name = Debug;
+		};
+		1CC617C91B3DA64400761994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiscereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discere.app/Contents/MacOS/Discere";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC617A31B3DA64400761994 /* Build configuration list for PBXProject "Discere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC617C21B3DA64400761994 /* Debug */,
+				1CC617C31B3DA64400761994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC617C41B3DA64400761994 /* Build configuration list for PBXNativeTarget "Discere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC617C51B3DA64400761994 /* Debug */,
+				1CC617C61B3DA64400761994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CC617C71B3DA64400761994 /* Build configuration list for PBXNativeTarget "DiscereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC617C81B3DA64400761994 /* Debug */,
+				1CC617C91B3DA64400761994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CC617A01B3DA64400761994 /* Project object */;
+}
