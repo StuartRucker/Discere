@@ -9,25 +9,32 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="style.css" rel="stylesheet" type="text/css">
 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="reqTitle">
-        <h1 class = "reqTitle"> <span>Requests</span> </h1>
-    </div>
-    
+
+
     <div id="here_table" style="">
         <table id="mytable"></table>
     </div>
 
     <div class="screenComponent" id="inputForm">
         <form action="javascript:handleClick();">
-            First name:
-            <br>
-            <input id="nameInput" type="text" name="Name" placeholder="Mickey">
-            <br>
-            <input type="submit" value="Submit">
+
+            <input id="firstNameInput" type='text' placeholder='first' />
+            <input id="lastNameInput" type='text' placeholder='last' />
+            <input id="classInput" type='text' placeholder='class' />
+            <input id="submitButton" type='submit' value="submit" placeholder='submit'>
         </form>
+    </div>
+    <div class="screenComponent" id="instructors">
+        <h3 style="text-align: center;">Instructors</h3>
     </div>
 </body>
 
