@@ -7,44 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CC617AE1B3DA64400761994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC617AD1B3DA64400761994 /* AppDelegate.swift */; };
-		1CC617B01B3DA64400761994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC617AF1B3DA64400761994 /* ViewController.swift */; };
-		1CC617B21B3DA64400761994 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC617B11B3DA64400761994 /* Images.xcassets */; };
-		1CC617B51B3DA64400761994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC617B31B3DA64400761994 /* Main.storyboard */; };
-		1CC617C11B3DA64400761994 /* DiscereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC617C01B3DA64400761994 /* DiscereTests.swift */; };
+		15DD55CBCDDE3BF01A4C0261 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087368E83CDB550828A25E9 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1C9E6E451B3FD06400C4C95D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E6E441B3FD06400C4C95D /* AppDelegate.swift */; };
+		1C9E6E471B3FD06400C4C95D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E6E461B3FD06400C4C95D /* Images.xcassets */; };
+		1C9E6E4A1B3FD06400C4C95D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E6E481B3FD06400C4C95D /* MainMenu.xib */; };
+		1C9E6E561B3FD06400C4C95D /* DiscereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E6E551B3FD06400C4C95D /* DiscereTests.swift */; };
+		1C9E6E631B3FD11F00C4C95D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E6E5F1B3FD11F00C4C95D /* EventMonitor.swift */; };
+		1C9E6E641B3FD11F00C4C95D /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E6E601B3FD11F00C4C95D /* MessageViewController.swift */; };
+		1C9E6E651B3FD11F00C4C95D /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E6E611B3FD11F00C4C95D /* MessageViewController.xib */; };
+		1C9E6E661B3FD11F00C4C95D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E6E621B3FD11F00C4C95D /* Podfile */; };
+		1C9E6E691B3FD1B500C4C95D /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E6E681B3FD1B500C4C95D /* File.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CC617BB1B3DA64400761994 /* PBXContainerItemProxy */ = {
+		1C9E6E501B3FD06400C4C95D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1CC617A01B3DA64400761994 /* Project object */;
+			containerPortal = 1C9E6E371B3FD06400C4C95D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1CC617A71B3DA64400761994;
+			remoteGlobalIDString = 1C9E6E3E1B3FD06400C4C95D;
 			remoteInfo = Discere;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CC617A81B3DA64400761994 /* Discere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discere.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CC617AC1B3DA64400761994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CC617AD1B3DA64400761994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CC617AF1B3DA64400761994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1CC617B11B3DA64400761994 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1CC617B41B3DA64400761994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1CC617BA1B3DA64400761994 /* DiscereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CC617BF1B3DA64400761994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CC617C01B3DA64400761994 /* DiscereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscereTests.swift; sourceTree = "<group>"; };
+		1C9E6E3F1B3FD06400C4C95D /* Discere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9E6E431B3FD06400C4C95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C9E6E441B3FD06400C4C95D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C9E6E461B3FD06400C4C95D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C9E6E491B3FD06400C4C95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1C9E6E4F1B3FD06400C4C95D /* DiscereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9E6E541B3FD06400C4C95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C9E6E551B3FD06400C4C95D /* DiscereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscereTests.swift; sourceTree = "<group>"; };
+		1C9E6E5F1B3FD11F00C4C95D /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		1C9E6E601B3FD11F00C4C95D /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		1C9E6E611B3FD11F00C4C95D /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		1C9E6E621B3FD11F00C4C95D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1C9E6E671B3FD1B500C4C95D /* Discere-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Discere-Bridging-Header.h"; sourceTree = "<group>"; };
+		1C9E6E681B3FD1B500C4C95D /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		5087368E83CDB550828A25E9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633099905BD99B0BAE7AE78D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Discere/Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B21D486D73A9C50E04F4212F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Discere/Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CC617A51B3DA64400761994 /* Frameworks */ = {
+		1C9E6E3C1B3FD06400C4C95D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DD55CBCDDE3BF01A4C0261 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CC617B71B3DA64400761994 /* Frameworks */ = {
+		1C9E6E4C1B3FD06400C4C95D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,71 +68,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CC6179F1B3DA64400761994 = {
+		1C9E6E361B3FD06400C4C95D = {
 			isa = PBXGroup;
 			children = (
-				1CC617AA1B3DA64400761994 /* Discere */,
-				1CC617BD1B3DA64400761994 /* DiscereTests */,
-				1CC617A91B3DA64400761994 /* Products */,
+				1C9E6E411B3FD06400C4C95D /* Discere */,
+				1C9E6E521B3FD06400C4C95D /* DiscereTests */,
+				1C9E6E401B3FD06400C4C95D /* Products */,
+				3D68C9A31C2C4861E4257FC6 /* Pods */,
+				7A3B93C5DC3680FA6BE2B302 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		1CC617A91B3DA64400761994 /* Products */ = {
+		1C9E6E401B3FD06400C4C95D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CC617A81B3DA64400761994 /* Discere.app */,
-				1CC617BA1B3DA64400761994 /* DiscereTests.xctest */,
+				1C9E6E3F1B3FD06400C4C95D /* Discere.app */,
+				1C9E6E4F1B3FD06400C4C95D /* DiscereTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CC617AA1B3DA64400761994 /* Discere */ = {
+		1C9E6E411B3FD06400C4C95D /* Discere */ = {
 			isa = PBXGroup;
 			children = (
-				1CC617AD1B3DA64400761994 /* AppDelegate.swift */,
-				1CC617AF1B3DA64400761994 /* ViewController.swift */,
-				1CC617B11B3DA64400761994 /* Images.xcassets */,
-				1CC617B31B3DA64400761994 /* Main.storyboard */,
-				1CC617AB1B3DA64400761994 /* Supporting Files */,
+				1C9E6E441B3FD06400C4C95D /* AppDelegate.swift */,
+				1C9E6E5F1B3FD11F00C4C95D /* EventMonitor.swift */,
+				1C9E6E601B3FD11F00C4C95D /* MessageViewController.swift */,
+				1C9E6E681B3FD1B500C4C95D /* File.m */,
+				1C9E6E611B3FD11F00C4C95D /* MessageViewController.xib */,
+				1C9E6E621B3FD11F00C4C95D /* Podfile */,
+				1C9E6E461B3FD06400C4C95D /* Images.xcassets */,
+				1C9E6E481B3FD06400C4C95D /* MainMenu.xib */,
+				1C9E6E421B3FD06400C4C95D /* Supporting Files */,
+				1C9E6E671B3FD1B500C4C95D /* Discere-Bridging-Header.h */,
 			);
 			path = Discere;
 			sourceTree = "<group>";
 		};
-		1CC617AB1B3DA64400761994 /* Supporting Files */ = {
+		1C9E6E421B3FD06400C4C95D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1CC617AC1B3DA64400761994 /* Info.plist */,
+				1C9E6E431B3FD06400C4C95D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1CC617BD1B3DA64400761994 /* DiscereTests */ = {
+		1C9E6E521B3FD06400C4C95D /* DiscereTests */ = {
 			isa = PBXGroup;
 			children = (
-				1CC617C01B3DA64400761994 /* DiscereTests.swift */,
-				1CC617BE1B3DA64400761994 /* Supporting Files */,
+				1C9E6E551B3FD06400C4C95D /* DiscereTests.swift */,
+				1C9E6E531B3FD06400C4C95D /* Supporting Files */,
 			);
 			path = DiscereTests;
 			sourceTree = "<group>";
 		};
-		1CC617BE1B3DA64400761994 /* Supporting Files */ = {
+		1C9E6E531B3FD06400C4C95D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1CC617BF1B3DA64400761994 /* Info.plist */,
+				1C9E6E541B3FD06400C4C95D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D68C9A31C2C4861E4257FC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B21D486D73A9C50E04F4212F /* Pods.debug.xcconfig */,
+				633099905BD99B0BAE7AE78D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A3B93C5DC3680FA6BE2B302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5087368E83CDB550828A25E9 /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CC617A71B3DA64400761994 /* Discere */ = {
+		1C9E6E3E1B3FD06400C4C95D /* Discere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CC617C41B3DA64400761994 /* Build configuration list for PBXNativeTarget "Discere" */;
+			buildConfigurationList = 1C9E6E591B3FD06400C4C95D /* Build configuration list for PBXNativeTarget "Discere" */;
 			buildPhases = (
-				1CC617A41B3DA64400761994 /* Sources */,
-				1CC617A51B3DA64400761994 /* Frameworks */,
-				1CC617A61B3DA64400761994 /* Resources */,
+				A6D97D5F85A52A2D2015D83E /* Check Pods Manifest.lock */,
+				1C9E6E3B1B3FD06400C4C95D /* Sources */,
+				1C9E6E3C1B3FD06400C4C95D /* Frameworks */,
+				1C9E6E3D1B3FD06400C4C95D /* Resources */,
+				2FF823B8FE45F413038C4126 /* Embed Pods Frameworks */,
+				1068968A7F0A537D61AD77B9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,46 +167,46 @@
 			);
 			name = Discere;
 			productName = Discere;
-			productReference = 1CC617A81B3DA64400761994 /* Discere.app */;
+			productReference = 1C9E6E3F1B3FD06400C4C95D /* Discere.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1CC617B91B3DA64400761994 /* DiscereTests */ = {
+		1C9E6E4E1B3FD06400C4C95D /* DiscereTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CC617C71B3DA64400761994 /* Build configuration list for PBXNativeTarget "DiscereTests" */;
+			buildConfigurationList = 1C9E6E5C1B3FD06400C4C95D /* Build configuration list for PBXNativeTarget "DiscereTests" */;
 			buildPhases = (
-				1CC617B61B3DA64400761994 /* Sources */,
-				1CC617B71B3DA64400761994 /* Frameworks */,
-				1CC617B81B3DA64400761994 /* Resources */,
+				1C9E6E4B1B3FD06400C4C95D /* Sources */,
+				1C9E6E4C1B3FD06400C4C95D /* Frameworks */,
+				1C9E6E4D1B3FD06400C4C95D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1CC617BC1B3DA64400761994 /* PBXTargetDependency */,
+				1C9E6E511B3FD06400C4C95D /* PBXTargetDependency */,
 			);
 			name = DiscereTests;
 			productName = DiscereTests;
-			productReference = 1CC617BA1B3DA64400761994 /* DiscereTests.xctest */;
+			productReference = 1C9E6E4F1B3FD06400C4C95D /* DiscereTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1CC617A01B3DA64400761994 /* Project object */ = {
+		1C9E6E371B3FD06400C4C95D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = rohan;
 				TargetAttributes = {
-					1CC617A71B3DA64400761994 = {
+					1C9E6E3E1B3FD06400C4C95D = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					1CC617B91B3DA64400761994 = {
+					1C9E6E4E1B3FD06400C4C95D = {
 						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 1CC617A71B3DA64400761994;
+						TestTargetID = 1C9E6E3E1B3FD06400C4C95D;
 					};
 				};
 			};
-			buildConfigurationList = 1CC617A31B3DA64400761994 /* Build configuration list for PBXProject "Discere" */;
+			buildConfigurationList = 1C9E6E3A1B3FD06400C4C95D /* Build configuration list for PBXProject "Discere" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -173,28 +214,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 1CC6179F1B3DA64400761994;
-			productRefGroup = 1CC617A91B3DA64400761994 /* Products */;
+			mainGroup = 1C9E6E361B3FD06400C4C95D;
+			productRefGroup = 1C9E6E401B3FD06400C4C95D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CC617A71B3DA64400761994 /* Discere */,
-				1CC617B91B3DA64400761994 /* DiscereTests */,
+				1C9E6E3E1B3FD06400C4C95D /* Discere */,
+				1C9E6E4E1B3FD06400C4C95D /* DiscereTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1CC617A61B3DA64400761994 /* Resources */ = {
+		1C9E6E3D1B3FD06400C4C95D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC617B21B3DA64400761994 /* Images.xcassets in Resources */,
-				1CC617B51B3DA64400761994 /* Main.storyboard in Resources */,
+				1C9E6E471B3FD06400C4C95D /* Images.xcassets in Resources */,
+				1C9E6E4A1B3FD06400C4C95D /* MainMenu.xib in Resources */,
+				1C9E6E661B3FD11F00C4C95D /* Podfile in Resources */,
+				1C9E6E651B3FD11F00C4C95D /* MessageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CC617B81B3DA64400761994 /* Resources */ = {
+		1C9E6E4D1B3FD06400C4C95D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,47 +246,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1068968A7F0A537D61AD77B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Discere/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FF823B8FE45F413038C4126 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Discere/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D97D5F85A52A2D2015D83E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1CC617A41B3DA64400761994 /* Sources */ = {
+		1C9E6E3B1B3FD06400C4C95D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC617B01B3DA64400761994 /* ViewController.swift in Sources */,
-				1CC617AE1B3DA64400761994 /* AppDelegate.swift in Sources */,
+				1C9E6E451B3FD06400C4C95D /* AppDelegate.swift in Sources */,
+				1C9E6E691B3FD1B500C4C95D /* File.m in Sources */,
+				1C9E6E641B3FD11F00C4C95D /* MessageViewController.swift in Sources */,
+				1C9E6E631B3FD11F00C4C95D /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CC617B61B3DA64400761994 /* Sources */ = {
+		1C9E6E4B1B3FD06400C4C95D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC617C11B3DA64400761994 /* DiscereTests.swift in Sources */,
+				1C9E6E561B3FD06400C4C95D /* DiscereTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1CC617BC1B3DA64400761994 /* PBXTargetDependency */ = {
+		1C9E6E511B3FD06400C4C95D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1CC617A71B3DA64400761994 /* Discere */;
-			targetProxy = 1CC617BB1B3DA64400761994 /* PBXContainerItemProxy */;
+			target = 1C9E6E3E1B3FD06400C4C95D /* Discere */;
+			targetProxy = 1C9E6E501B3FD06400C4C95D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1CC617B31B3DA64400761994 /* Main.storyboard */ = {
+		1C9E6E481B3FD06400C4C95D /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1CC617B41B3DA64400761994 /* Base */,
+				1C9E6E491B3FD06400C4C95D /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1CC617C21B3DA64400761994 /* Debug */ = {
+		1C9E6E571B3FD06400C4C95D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		1CC617C31B3DA64400761994 /* Release */ = {
+		1C9E6E581B3FD06400C4C95D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -323,29 +416,36 @@
 			};
 			name = Release;
 		};
-		1CC617C51B3DA64400761994 /* Debug */ = {
+		1C9E6E5A1B3FD06400C4C95D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21D486D73A9C50E04F4212F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Discere/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Discere/Discere-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		1CC617C61B3DA64400761994 /* Release */ = {
+		1C9E6E5B1B3FD06400C4C95D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633099905BD99B0BAE7AE78D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Discere/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Discere/Discere-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		1CC617C81B3DA64400761994 /* Debug */ = {
+		1C9E6E5D1B3FD06400C4C95D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -365,7 +465,7 @@
 			};
 			name = Debug;
 		};
-		1CC617C91B3DA64400761994 /* Release */ = {
+		1C9E6E5E1B3FD06400C4C95D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -384,32 +484,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CC617A31B3DA64400761994 /* Build configuration list for PBXProject "Discere" */ = {
+		1C9E6E3A1B3FD06400C4C95D /* Build configuration list for PBXProject "Discere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CC617C21B3DA64400761994 /* Debug */,
-				1CC617C31B3DA64400761994 /* Release */,
+				1C9E6E571B3FD06400C4C95D /* Debug */,
+				1C9E6E581B3FD06400C4C95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CC617C41B3DA64400761994 /* Build configuration list for PBXNativeTarget "Discere" */ = {
+		1C9E6E591B3FD06400C4C95D /* Build configuration list for PBXNativeTarget "Discere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CC617C51B3DA64400761994 /* Debug */,
-				1CC617C61B3DA64400761994 /* Release */,
+				1C9E6E5A1B3FD06400C4C95D /* Debug */,
+				1C9E6E5B1B3FD06400C4C95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1CC617C71B3DA64400761994 /* Build configuration list for PBXNativeTarget "DiscereTests" */ = {
+		1C9E6E5C1B3FD06400C4C95D /* Build configuration list for PBXNativeTarget "DiscereTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CC617C81B3DA64400761994 /* Debug */,
-				1CC617C91B3DA64400761994 /* Release */,
+				1C9E6E5D1B3FD06400C4C95D /* Debug */,
+				1C9E6E5E1B3FD06400C4C95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1CC617A01B3DA64400761994 /* Project object */;
+	rootObject = 1C9E6E371B3FD06400C4C95D /* Project object */;
 }
