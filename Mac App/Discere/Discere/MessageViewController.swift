@@ -69,10 +69,16 @@ extension MessageViewController {
         
         if(firstField.stringValue != "" && messageField.stringValue != ""){
             var nref = ref.childByAutoId()
-            var nameref = nref.childByAppendingPath("name")
-            var classref = nref.childByAppendingPath("class")
-            nameref.setValue("\(firstField.stringValue) \(lastField.stringValue)")
-            classref.setValue("\(messageField.stringValue)")
+//            var nameref = nref.childByAppendingPath("name")
+//            var classref = nref.childByAppendingPath("class")
+            
+            var vals = ["name": "\(firstField.stringValue) \(lastField.stringValue)", "class": "\(messageField.stringValue)"]
+            nref.setValue(vals)
+            
+//            classref.setValue("\(messageField.stringValue)")
+//            nameref.setValue("\(firstField.stringValue) \(lastField.stringValue)")
+//            nref.setV
+            
             NSAnimationContext.runAnimationGroup({context in
                     context.duration = 5.0
                     self.firstField.alphaValue = 0
