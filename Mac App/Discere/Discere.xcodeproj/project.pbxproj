@@ -41,9 +41,10 @@
 		1C9E6E5F1B3FD11F00C4C95D /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 		1C9E6E601B3FD11F00C4C95D /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		1C9E6E611B3FD11F00C4C95D /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
-		1C9E6E621B3FD11F00C4C95D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1C9E6E621B3FD11F00C4C95D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1C9E6E671B3FD1B500C4C95D /* Discere-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Discere-Bridging-Header.h"; sourceTree = "<group>"; };
 		1C9E6E681B3FD1B500C4C95D /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		1C9E6E6A1B41AA7C00C4C95D /* Discere.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Discere.entitlements; sourceTree = "<group>"; };
 		5087368E83CDB550828A25E9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		633099905BD99B0BAE7AE78D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Discere/Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B21D486D73A9C50E04F4212F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Discere/Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +92,7 @@
 		1C9E6E411B3FD06400C4C95D /* Discere */ = {
 			isa = PBXGroup;
 			children = (
+				1C9E6E6A1B41AA7C00C4C95D /* Discere.entitlements */,
 				1C9E6E441B3FD06400C4C95D /* AppDelegate.swift */,
 				1C9E6E5F1B3FD11F00C4C95D /* EventMonitor.swift */,
 				1C9E6E601B3FD11F00C4C95D /* MessageViewController.swift */,
@@ -199,6 +201,12 @@
 				TargetAttributes = {
 					1C9E6E3E1B3FD06400C4C95D = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = Y34H9PY55Y;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					1C9E6E4E1B3FD06400C4C95D = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -422,6 +430,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Discere/Discere.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Discere/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -437,6 +447,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Discere/Discere.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Discere/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
